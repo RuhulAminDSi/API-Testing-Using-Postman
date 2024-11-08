@@ -1,19 +1,12 @@
-Sure! Here’s the API documentation formatted in Markdown (MD):
-
-```markdown
-# Dmoney Transaction API Documentation
+Dmoney Transaction API documentation:
 
 ## Base URL
-```
 http://dmoney.roadtocareer.net
-```
+
 
 ## Authentication
 All requests require an `Authorization` header with a Bearer token.
-
-```
 Authorization: Bearer <token>
-```
 
 ### Example Token
 ```
@@ -25,6 +18,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
 ### 1. User Login
 
 #### **Login with Valid Credentials**
+```
 - **Method**: `POST`
 - **URL**: `/user/login`
 - **Body** (JSON):
@@ -34,8 +28,10 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "password": "1234"
     }
     ```
+```
 
 #### **Login with Invalid Credentials**
+```
 - **Method**: `POST`
 - **URL**: `/user/login`
 - **Body** (JSON):
@@ -45,10 +41,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "password": "12345"
     }
     ```
-
+```
 ### 2. Create User
 
 #### **Create Agent with Valid Credentials**
+```
 - **Method**: `POST`
 - **URL**: `/user/create`
 - **Headers**:
@@ -67,8 +64,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "role": "Agent"
     }
     ```
-
+```
 #### **Create Agent with Invalid Credentials**
+```
 - **Method**: `POST`
 - **URL**: `/user/create`
 - **Body** (JSON):
@@ -82,10 +80,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "role": "Agent"
     }
     ```
-
+```
 ### 3. Create Customer
 
 #### **Create Customer 1**
+```
 - **Method**: `POST`
 - **URL**: `/user/create`
 - **Headers**:
@@ -104,8 +103,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "role": "Customer"
     }
     ```
-
+```
 #### **Create Customer 2**
+```
 - **Method**: `POST`
 - **URL**: `/user/create`
 - **Body** (JSON):
@@ -119,10 +119,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "role": "Customer"
     }
     ```
-
+```
 ### 4. Transactions
 
 #### **Deposit Money**
+```
 - **Method**: `POST`
 - **URL**: `/transaction/deposit`
 - **Headers**:
@@ -138,8 +139,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "amount": 5000
     }
     ```
-
+```
 #### **Withdraw Money**
+```
 - **Method**: `POST`
 - **URL**: `/transaction/withdraw`
 - **Headers**:
@@ -155,10 +157,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "amount": 50
     }
     ```
-
+```
 ### 5. Balance Check
 
 #### **Check Agent Balance**
+```
 - **Method**: `GET`
 - **URL**: `/transaction/balance/<agent_number>`
 - **Headers**:
@@ -166,10 +169,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
     Authorization: Bearer <token>
     X-AUTH-SECRET-KEY: ROADTOSDET
     ```
-
+```
 ### 6. Payment
 
 #### **Merchant Payment**
+```
 - **Method**: `POST`
 - **URL**: `/transaction/payment`
 - **Headers**:
@@ -185,9 +189,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "amount": 11
     }
     ```
-
+```
 ### Error Handling
+```
 - Ensure to validate inputs and handle errors gracefully. Common errors include invalid credentials, insufficient funds, and non-existing accounts.
+```
 
 ---
 
