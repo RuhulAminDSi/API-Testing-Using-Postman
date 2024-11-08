@@ -14,7 +14,7 @@ Welcome to the API documentation for **Dmoney Transaction**. This API provides [
 ### Base URL
 
 ```
-https://api.yourcompany.com/v1
+http://dmoney.roadtocareer.net
 ```
 
 ## Authentication
@@ -28,7 +28,7 @@ To access the API, you will need an API key. You can obtain your API key by logi
 Include your API key in the request headers:
 
 ```
-Authorization: Bearer YOUR_API_KEY
+Authorization: Bearer JWT token
 ```
 
 ## Endpoints
@@ -42,8 +42,8 @@ Authorization: Bearer YOUR_API_KEY
 #### Request
 
 ```http
-GET https://api.yourcompany.com/v1/users/123
-Authorization: Bearer YOUR_API_KEY
+GET  http://dmoney.roadtocareer.net/users/123
+Authorization: Bearer Token
 ```
 
 #### Response
@@ -80,7 +80,7 @@ Authorization: Bearer YOUR_API_KEY
 #### Request
 
 ```http
-POST https://api.yourcompany.com/v1/users
+POST  http://dmoney.roadtocareer.net/users
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 ```
@@ -127,7 +127,7 @@ Content-Type: application/json
 #### Request
 
 ```http
-PUT https://api.yourcompany.com/v1/users/123
+PUT  http://dmoney.roadtocareer.net/users/123
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 ```
