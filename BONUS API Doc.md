@@ -1,4 +1,25 @@
-Dmoney Transaction API documentation:
+
+# Dmoney API Testing Using Postman And Newman
+## Project summary:
+This porject shows the automation between DMoney user and Transection API using postman. And generate report using newman to show the test result at a glance. I have added the API collection run documentation, Test Cases documentation both positive and negative test case and a Bug report for this project.
+## Test Scenarios:
+1. Admin creates an agent and random 2 customers. 
+2. Deposit some money from SYSTEM account to the agent. System account: SYSTEM (range 10 tk to 10000 tk)
+3. Agent deposit to any of 1 customer
+4. Check agent balance
+5. Then withdraw any amount by the customer from the agent (range 10 tk to 10000 tk)
+6. Then the customer checks balance
+7. Then send money to the other customer
+8. Then from the another customer payment to this merchant: 01686606905
+9. Then the second customer will check both balance and statement
+10. Then the merchant will check his own balance
+
+## Prerequisites
+``` 1. Node.js ``` <br>
+``` 2. Post man ``` <br>
+``` 3. Vs code ``` <br>
+``` 4. Newman ``` <br>
+``` 5. git ``` <br>
 
 ## Base URL
 http://dmoney.roadtocareer.net
