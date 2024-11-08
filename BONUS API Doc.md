@@ -29,7 +29,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
 ```
 
 #### **Login with Invalid Credentials**
-```
+
 - **Method**: `POST`
 - **URL**: `/user/login`
 - **Body** (JSON):
@@ -39,7 +39,6 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
         "password": "12345"
     }
     ```
-```
 ### 2. Create User
 
 #### **Create Agent with Valid Credentials**
