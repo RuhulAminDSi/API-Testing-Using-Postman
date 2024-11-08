@@ -1,7 +1,7 @@
 # API-Testing-Using-Postman
 
 
-Certainly! Below is a standard template for API documentation that you can customize to fit your specific API. This template includes sections for introduction, authentication, endpoints, request/response formats, error handling, and more.
+Below is a standard template for API documentation that you can customize to fit your specific API. This template includes sections for introduction, authentication, endpoints, request/response formats, error handling, and more.
 
 ---
 
@@ -9,7 +9,7 @@ Certainly! Below is a standard template for API documentation that you can custo
 
 ## Introduction
 
-Welcome to the API documentation for **[Your API Name]**. This API provides [brief description of what the API does, e.g., "access to user data, product information, etc."]. 
+Welcome to the API documentation for **Dmoney Transaction**. This API provides [brief description of what the API does, e.g., "access to user data, product information, etc."]. 
 
 ### Base URL
 
@@ -21,7 +21,7 @@ https://api.yourcompany.com/v1
 
 ### API Key
 
-To access the API, you will need an API key. You can obtain your API key by [describe how to obtain an API key, e.g., "registering on our website"].
+To access the API, you will need an API key. You can obtain your API key by login as admin and create user
 
 ### Include API Key in Requests
 
@@ -190,18 +190,6 @@ To ensure fair usage and availability, our API enforces rate limits. The default
 
 ## Contact
 
-For further assistance, please contact our support team at:
+For further assistance, please contact me at:
 
-- Email: support@yourcompany.com
-- Documentation: [https://docs.yourcompany.com](https://docs.yourcompany.com)
-
----
-
-### Notes for Customization
-
-- Replace placeholders like **[Your API Name]** and URL with your actual values.
-- Add or modify endpoints according to your API's functionality.
-- Include any additional authentication methods if applicable (e.g., OAuth).
-- Ensure consistency in response formats and error handling.
-
-Feel free to adjust this template to better match your company's standards or specific API features! If you need further assistance, let me know!
+- Email: ruhul.amin@dsinnovators.com
