@@ -191,13 +191,12 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
     ```
 ```
 ### Error Handling
-```
+
 - Ensure to validate inputs and handle errors gracefully. Common errors include invalid credentials, insufficient funds, and non-existing accounts.
-```
 
 ---
 
 This documentation provides a structured overview of the Dmoney Transaction API. Feel free to expand on any sections or add additional details as needed!
-``` 
+
 
 You can copy and paste this Markdown into your documentation file. Let me know if you need any further modifications!
