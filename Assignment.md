@@ -1,5 +1,4 @@
 
-
 # Assignment: API’s and API Testing Using Postman
 
 ## Assignment Overview
@@ -8,39 +7,37 @@ Trainees are required to create API test cases (both positive and negative) in a
 ## Scenarios
 
 ### Admin Operations
-1. **Create an agent, merchant, and two random customers as Admin.**
-   - **Admin Credentials**:
-     - Email: `admin@roadtocareer.net`
-     - Password: `1234`
-   
-2. **Cancel Transaction.**
+- Create an agent, merchant, and two random customers as Admin.
+- **Admin Credentials**:
+    - Email: `admin@roadtocareer.net`
+    - Password: `1234`
+- Cancel Transaction.
 
 ### System Operations
-3. **Deposit money from the SYSTEM account to the agent.**
-   - **Amount Range**: 10 Tk to 10,000 Tk
+- Deposit money from the SYSTEM account to the agent.
+- **Amount Range**: 10 Tk to 10,000 Tk
 
 ### Agent Operations
-4. **Deposit money to one of the customers as Agent.**
-5. **Check the agent's balance.**
+- Deposit money to one of the customers as Agent.
+- Check the agent's balance.
 
 ### Customer Operations
-6. **Withdraw an amount from the agent.**
-   - **Range**: 10 Tk to 10,000 Tk
-
-7. **Check customer balance.**
-8. **Send money to another customer.**
-9. **Make a payment from the second customer to the merchant.**
-10. **Check both balance and statement for the second customer.**
+- Withdraw an amount from the agent (Range: 10 Tk to 10,000 Tk).
+- Check customer balance.
+- Send money to another customer.
+- Make a payment from the second customer to the merchant.
+- Check both balance and statement for the second customer.
 
 ### Merchant Operations
-11. **Merchant checks their own balance.**
-12. **Merchant checks their own statement.**
+- Merchant checks their own balance.
+- Merchant checks their own statement.
 
 ## API Documentation
-Access the transaction API URL, endpoints, header information, and demo data from the provided documentation.
+- Access the transaction API URL, endpoints, header information, and demo data from the provided documentation.
 
 ## Postman Collection
-Create a Postman collection based on the test cases developed for the scenarios listed above. Include negative test cases for each API request.
+- Create a Postman collection based on the test cases developed for the 10 scenarios listed above.
+- Include negative test cases for each API request.
 
 ## Documentation and Reporting
 Generate the following:
@@ -68,5 +65,3 @@ Ensure that all documentation, reports, and screenshots are correctly linked and
 
 ## Submission
 Ensure that all documentation, reports, and screenshots are correctly linked and organized in the GitHub repository or Google Drive.
-
-Feel free to customize any specific sections or add additional details as needed!
