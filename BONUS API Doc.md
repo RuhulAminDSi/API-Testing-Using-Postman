@@ -196,7 +196,4 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
 
 ---
 
-This documentation provides a structured overview of the Dmoney Transaction API. Feel free to expand on any sections or add additional details as needed!
-
-
-You can copy and paste this Markdown into your documentation file. Let me know if you need any further modifications!
+This documentation provides a structured overview of the Dmoney Transaction API.
