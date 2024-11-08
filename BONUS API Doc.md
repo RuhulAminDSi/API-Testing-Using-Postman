@@ -18,16 +18,14 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiMDE2ODY2MDY5MDkiLCJwYXN
 ### 1. User Login
 
 #### **Login with Valid Credentials**
-```
-- **Method**: `POST`
-- **URL**: `/user/login`
-- **Body** (JSON):
-    ```json
+```json
+- Method: `POST`
+- URL: `/user/login`
+- Body (JSON):
     {
         "emailOrPhoneNumber": "01686606909",
         "password": "1234"
     }
-    ```
 ```
 
 #### **Login with Invalid Credentials**
